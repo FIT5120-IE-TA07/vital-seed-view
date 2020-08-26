@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "node"
+install:
+  - npm install
+script:
+  - npm run test
+branches:
+  only:
+    - dev
+deploy:
+  provider: heroku
+  api_key:
+    secure: "hyyaKBsCXCbLoTrscFZvoAbKunMyAkAsbhG+Twp3FkfRdPQEA+A2fj8oJPTPTn08A73kjESg8olFoRQJlOX/EhcUAu86MZaKNn768cpN75JlhR7a4U9wFSFk5k4Rql8g0xE0+Tih/i61h3hsmNaePSD3ozwvOvs/FfQPTo1aR4A1kXpZ1+UHIreO4ijYQGf4zRPete9RbIhXu/6TmxQXF66Btx9zna+UsPQ3xhCf6jyvW1uqpVTnumENDSb95KLn+eO1JhDj2Bi/CwxVnkG2deGAgfz5UP5hHi/LYmGCccTC9lgdw48/gK2uOe+jZ7xLuegAvF5oPTG7oKclO6riOZNR+EytO2ZxM7lf343gr/0JcLfmUp+MtqUmeWY2TZYoLOqUyF1SrX30INA7rw/JvNjopodAZ/6hbHRjjUVv8TSD5gvA8FlaPGWCGBE2EQWWphPBm6B/a5EMYRHPbZGPZNLbEC6CA3MBFORxt0TIHl7heE6uYbHsja9gUylWoOjuRdFEn4h40WBeWb1UtURvnsQSrVbKSx6y9FhmShnl6QjmmBuiJlcxZ9fHvf5ScIqbtoawW2G/tCsaSz5zjQhCXFN1KEpmigZCN8hmOFd95umvktAOPEzB2YV42MQWh4qN8ystju62S9ozesyOcAOmdAZLWxy+B+zuQyJQAu2116I="
+    app:
+      dev: vital-seed-view-react

@@ -3,13 +3,66 @@ import Popup from "reactjs-popup";
 
 function Link() {
   return (
-    <Popup trigger={<button className="button"> Open Modal </button>} modal>
+    <Popup trigger={<button className="button"> Chlamydia </button>} modal>
       {(close) => (
         <div className="modal">
           <a className="close" onClick={close}>
             &times;
           </a>
-          <div className="header"> Modal Title </div>
+          <div className="header"> Chlamydia </div>
+          <div className="sub-header">What is it?</div>
+          <div className="content">
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a
+            nostrum. Dolorem, repellat quidem ut, minima sint vel eveniet
+            quibusdam voluptates delectus doloremque, explicabo tempore dicta
+            adipisci fugit amet dignissimos?
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+            sit commodi beatae optio voluptatum sed eius cumque, delectus saepe
+            repudiandae explicabo nemo nam libero ad, doloribus, voluptas rem
+            alias. Vitae?
+          </div>
+          <div className="sub-header">How do you catch it?</div>
+          <div className="content">
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a
+            nostrum. Dolorem, repellat quidem ut, minima sint vel eveniet
+            quibusdam voluptates delectus doloremque, explicabo tempore dicta
+            adipisci fugit amet dignissimos?
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+            sit commodi beatae optio voluptatum sed eius cumque, delectus saepe
+            repudiandae explicabo nemo nam libero ad, doloribus, voluptas rem
+            alias. Vitae?
+          </div>
+          <div className="sub-header">What are the symptoms?</div>
+          <div className="content">
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a
+            nostrum. Dolorem, repellat quidem ut, minima sint vel eveniet
+            quibusdam voluptates delectus doloremque, explicabo tempore dicta
+            adipisci fugit amet dignissimos?
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+            sit commodi beatae optio voluptatum sed eius cumque, delectus saepe
+            repudiandae explicabo nemo nam libero ad, doloribus, voluptas rem
+            alias. Vitae?
+          </div>
+          <div className="sub-header">Diagnosis and Treatment</div>
+          <div className="content">
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a
+            nostrum. Dolorem, repellat quidem ut, minima sint vel eveniet
+            quibusdam voluptates delectus doloremque, explicabo tempore dicta
+            adipisci fugit amet dignissimos?
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+            sit commodi beatae optio voluptatum sed eius cumque, delectus saepe
+            repudiandae explicabo nemo nam libero ad, doloribus, voluptas rem
+            alias. Vitae?
+          </div>
+          <div className="sub-header">How to prevent it?</div>
           <div className="content">
             {" "}
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a
@@ -23,18 +76,6 @@ function Link() {
             alias. Vitae?
           </div>
           <div className="actions">
-            <Popup
-              trigger={<button className="button"> Trigger </button>}
-              position="top center"
-              closeOnDocumentClick
-            >
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-                magni omnis delectus nemo, maxime molestiae dolorem numquam
-                mollitia, voluptate ea, accusamus excepturi deleniti ratione
-                sapiente! Laudantium, aperiam doloribus. Odit, aut.
-              </span>
-            </Popup>
             <button
               className="button"
               onClick={() => {
@@ -42,7 +83,7 @@ function Link() {
                 close();
               }}
             >
-              close modal
+              Close
             </button>
           </div>
         </div>

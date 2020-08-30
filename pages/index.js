@@ -1,8 +1,6 @@
-import Head from "next/head";
-import MyImage from "./components/images/test.image";
-import VirusImage from "./components/images/virus.image";
-import Link from "./components/sti-info/link";
-import React from 'react'
+import Head from 'next/head'
+import Link from 'next/link'
+import Header from './components/Header'
 
 export default function Home() {
   return (
@@ -11,11 +9,11 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
       <main>
-        <h1 className="title">Welcome to Vital Seed!</h1>
-        <VirusImage />
-        <Link />
+        <h1 className="title">
+          Hi <a href="/clinics">Link testing</a>
+        </h1>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
@@ -49,7 +47,6 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-          <MyImage />
         </div>
       </main>
 

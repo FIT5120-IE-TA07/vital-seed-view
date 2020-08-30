@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">Welcome to Vital Seed!</h1>
+        <h1 className="title">Welcome to Vital Seed again!</h1>
         <VirusImage />
         <Link />
 

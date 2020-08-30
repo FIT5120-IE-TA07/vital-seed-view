@@ -1,11 +1,6 @@
 import Head from 'next/head'
-<<<<<<< HEAD
 import Link from 'next/link'
-import Header from '../components/Header'
-=======
-import MyImage from './components/images/test.image'
-import VirusImage from './components/images/virus.image'
->>>>>>> 8f866b79cbe807f0fe1cf5586d9b23ef04d18276
+import Header from './components/Header'
 
 export default function Home() {
   return (
@@ -19,7 +14,6 @@ export default function Home() {
         <h1 className="title">
           Hi <a href="/clinics">Link testing</a>
         </h1>
-        <VirusImage />
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
@@ -53,7 +47,6 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-          <MyImage />
         </div>
       </main>
 

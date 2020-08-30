@@ -1,0 +1,38 @@
+.container {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+/* .logo {
+    background-image: url("./logo.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 34px;
+    width: 34px;
+    display: inline-block;
+    vertical-align: middle;
+} */
+
+.nav {
+    display: inline-block;
+    float: right;
+}
+
+.ul {
+    padding-right: 5;
+    margin-right: 5;
+}
+
+.li {
+    display: inline-block;
+    list-style: none;
+}
+
+.link {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    color: #484848;
+    margin: 0 16px;
+    padding: 0 0 5px 0;
+    -webkit-font-smoothing: antialiased;
+}

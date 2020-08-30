@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Header from '../components/Header'
 
 export default function Home() {
   return (
@@ -8,10 +9,10 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
       <main>
         <h1 className="title">
-          Hi <a href="/posts/first-post">Link testing</a>
+          Hi <a href="/clinics">Link testing</a>
         </h1>
 
         <p className="description">

@@ -1,6 +1,6 @@
 import React from 'react';
-// import styles from './Navigation.module.css';
 import Link from '@material-ui/core/Link';
+import { Button } from '@material-ui/core';
 
 class Navigation extends React.Component {
   render() {
@@ -10,10 +10,10 @@ class Navigation extends React.Component {
         <div className="nav">
           <nav>
             <ul className="ul">
-              <li><Link className="link" href = "./">Home</Link></li>
-              <li><Link className="link">Events</Link></li>
-              <li><Link className="link">Reports</Link></li>
-              <li><Link className="link">FAQ</Link></li>
+              <Button><Link className="link" href = "./">Home</Link></Button>
+              <Button><Link className="link" href = "./events">Events</Link></Button>
+              <Button><Link className="link" href = "./reports">Reports</Link></Button>
+              <Button><Link className="link" href = "./faq">FAQ</Link></Button>
             </ul>
           </nav>
         </div>

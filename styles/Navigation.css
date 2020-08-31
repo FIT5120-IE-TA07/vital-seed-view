@@ -1,0 +1,32 @@
+/* .logo {
+    background-image: url("./logo.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 34px;
+    width: 34px;
+    display: inline-block;
+    vertical-align: middle;
+} */
+
+.nav {
+    height: 60px;
+    width: 100%;
+    left:0;
+    top: 0;
+    background-color: rgba(53, 213, 241, 0.993);
+    font-family: sans-serif;
+    position: fixed;
+    text-transform: uppercase;
+}
+
+.ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    text-decoration: none;
+}
+
+.div {
+    margin-right: 30px;
+    text-decoration: none;
+}

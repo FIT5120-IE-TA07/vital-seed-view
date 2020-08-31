@@ -1,15 +1,28 @@
+.main{
+  background-color: rgb(134, 131, 131);
+}
+
+.resImg {
+  max-width: 100%;
+  height: auto;
+}
+
+.title{
+  margin-top: 60px;
+}
+
 .container {
   min-height: 70vh;
-  padding: 0 0.5rem;
+  padding-top: 30px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.container1 {
+.containerTop {
   min-height: 70vh;
-  padding-top: 60px;
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -22,18 +35,17 @@
   color: rgba(255, 255, 255, 0.548);
 }
 
-.main{
-  background-color: rgb(134, 131, 131);
-}
-
-.resImg {
-  max-width: 100%;
-  height: auto;
+.subContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 60px;
+  width: 600px;
 }
 
 /* responsive code for html */
-/* @media only screen and (min-width: 600px) {
   /* For tablets: */
+/* @media only screen and (min-width: 600px) {
   /* .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
   .col-s-3 {width: 25%;}
@@ -48,8 +60,8 @@
   .col-s-12 {width: 100%;}
 }
 
+  /* For desktop: 
 @media only screen and (min-width: 768px) {
-  /* For desktop: */
   /* .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}

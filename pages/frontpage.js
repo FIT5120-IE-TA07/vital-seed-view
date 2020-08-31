@@ -7,6 +7,8 @@ import BackgroundImage1 from './components/images/backgroundImage1';
 import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
 import VirusImage from "./components/images/virus.image";
 import GirlImage from "./components/images/girl.image";
+import ChartImage from "./components/images/chart.image";
+import MapImage from "./components/images/map.image";
 import Chlamydia from "./components/sti-info/chlamydia";
 import Gonorrhea from './components/sti-info/gonorrhea'
 import Hpv from './components/sti-info/hpv'
@@ -23,10 +25,14 @@ export default function Frontpage() {
       </Head>
       <Navigation />
       <h1 className="title">Welcome to Vital Seed!</h1>
+
+      {/* container1 */}
       <div className="containerTop">
         <div><BackgroundImage1 /></div>
-        <div className="right1">Welcome to vital seed. </div>
+        <div className="subContainer2">Welcome to Vital Seed! This is iteration 1, the functionalities we are showing are: popup information, chart of infected rate and the map of clinics </div>
       </div>
+
+      {/* container2 */}
       <div className="container">
         <div className="subContainer">
           <h1>STI Information</h1>
@@ -44,11 +50,21 @@ export default function Frontpage() {
         </div>
         <div><GirlImage /></div>
       </div>
+
+      {/* container3 */}
       <div className="container">
-        <div>This is container3</div>
+        <div><ChartImage /></div>
+        <div className="subContainer2">
+          Because of some technical issues, we're using image to represent the chart. We'll fix it soon. Sorry for the inconvenience.
+          </div>
       </div>
+
+      {/* container4 */}
       <div className="container">
-        <div>This is container4</div>
+        <div className="subContainer">
+          Because of some technical issues, we're using image to represent the map. We'll fix it soon. Sorry for the inconvenience.
+        </div>
+        <div><MapImage /></div>
       </div>
       <Footer />
     </div>

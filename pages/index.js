@@ -16,7 +16,7 @@ export default function Home() {
         {/* <h1 className="title">
           Hi <a href="/clinics">Link testing</a>
         </h1> */}
-        <h1 className="title">Welcome to Vital Seed again!</h1>
+        <h1 className="title">Welcome to Vital Seed!</h1>
         <Frontpage />
 
         {/* <VirusImage />

@@ -1,7 +1,11 @@
 import React from 'react';
+import Navigation from './components/Navigation';
 
 export default function Faq() {
     return (
-        <div>This is FAQ page</div>
+        <div className="main">
+            <Navigation />
+        <p className = "title">This is FAQ page</p>
+        </div>
     );
 }

@@ -9,6 +9,8 @@ import Gonorrhea from './components/sti-info/gonorrhea'
 import Hpv from './components/sti-info/hpv'
 import Hiv from './components/sti-info/hiv'
 import Syphilis from './components/sti-info/syphilis'
+import melb_map from './components/melb_map'
+import STD_chart from './components/STD_chart'
 import React from 'react'
 
 export default function Home() {
@@ -37,7 +39,12 @@ export default function Home() {
         <br />
         <Syphilis />
       
-
+      
+        <melb_map />
+      
+        <STD_chart />
+      
+            
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>

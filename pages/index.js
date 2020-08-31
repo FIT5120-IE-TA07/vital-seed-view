@@ -5,6 +5,7 @@ import Chlamydia from "./components/sti-info/chlamydia";
 import Gonorrhea from './components/sti-info/gonorrhea'
 import Hpv from './components/sti-info/hpv'
 import Hiv from './components/sti-info/hiv'
+import Syphilis from './components/sti-info/syphilis'
 import React from 'react'
 
 export default function Home() {
@@ -26,6 +27,8 @@ export default function Home() {
         <Hpv />
         <br />
         <Hiv />
+        <br />
+        <Syphilis />
       
 
         <p className="description">

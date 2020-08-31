@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Header from './components/Header'
 import Layout from './components/Layout'
-import Head from "next/head";
 import MyImage from "./components/images/test.image";
 import VirusImage from "./components/images/virus.image";
 import Chlamydia from "./components/sti-info/chlamydia";

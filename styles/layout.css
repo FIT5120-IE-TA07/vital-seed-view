@@ -29,12 +29,6 @@
   align-items: center;
 }
 
-.right1{
-  margin-left: 60px;
-  width: 600px;
-  color: rgba(255, 255, 255, 0.548);
-}
-
 .subContainer{
   display: flex;
   flex-direction: column;
@@ -43,6 +37,11 @@
   width: 600px;
 }
 
+.subContainer2{
+  margin-left: 60px;
+  width: 600px;
+  color: rgba(255, 255, 255, 0.548);
+}
 /* responsive code for html */
   /* For tablets: */
 /* @media only screen and (min-width: 600px) {

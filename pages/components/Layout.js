@@ -8,41 +8,51 @@ class Layout extends React.Component {
   render() {
     return (
       <div>
-        
         <Head>
           <title>Vital Seed</title>
           <Navigation />
         </Head>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
-        <div>test Layout</div>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
+        <p>test Layout</p>
 
         <Footer />
       </div>

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import MyImage from "./components/images/test.image";
 import VirusImage from "./components/images/virus.image";
-import Link from "./components/sti-info/link";
+import Chlamydia from "./components/sti-info/chlamydia";
 import React from 'react'
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         <h1 className="title">Welcome to Vital Seed again!</h1>
         <VirusImage />
-        <Link />
+        <Chlamydia />
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>

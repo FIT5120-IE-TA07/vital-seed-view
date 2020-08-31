@@ -3,6 +3,7 @@ import MyImage from "./components/images/test.image";
 import VirusImage from "./components/images/virus.image";
 import Chlamydia from "./components/sti-info/chlamydia";
 import Gonorrhea from './components/sti-info/gonorrhea'
+import Hpv from './components/sti-info/hpv'
 import React from 'react'
 
 export default function Home() {
@@ -20,6 +21,9 @@ export default function Home() {
         <Chlamydia />
         <br />
         <Gonorrhea />
+        <br />
+        <Hpv />
+      
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>

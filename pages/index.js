@@ -1,31 +1,25 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Header from './components/Header'
-import Layout from './components/Layout'
-import MyImage from "./components/images/test.image";
-import VirusImage from "./components/images/virus.image";
-import Chlamydia from "./components/sti-info/chlamydia";
-import Gonorrhea from './components/sti-info/gonorrhea'
-import Hpv from './components/sti-info/hpv'
-import Hiv from './components/sti-info/hiv'
-import Syphilis from './components/sti-info/syphilis'
+// import Link from 'next/link'
 import React from 'react'
+import Frontpage from './frontpage'
 
 export default function Home() {
   return (
     <div className="container">
       {/* <Layout> */}
       <Head>
-        <title>Create Next App</title>
+        <title>Vital Seed</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
       <main>
-        <h1 className="title">
+        {/* <h1 className="title">
           Hi <a href="/clinics">Link testing</a>
-        </h1>
+        </h1> */}
         <h1 className="title">Welcome to Vital Seed again!</h1>
-        <VirusImage />
+        <Frontpage />
+
+        {/* <VirusImage />
         <h1 className="sub-title">STI Information</h1>
         <Chlamydia />
         <br />
@@ -70,10 +64,10 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
 
-      <footer>
+      {/* <footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -82,7 +76,7 @@ export default function Home() {
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
-      </footer>
+      </footer> */}
     </div>
   )
 }

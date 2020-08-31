@@ -1,10 +1,14 @@
+.popup-content {
+  overflow: auto;
+  height: 75%;
+}
 .modal {
   font-size: 12px;
 }
 .modal > .header {
   width: 100%;
   border-bottom: 1px solid gray;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   padding: 5px;
 }
@@ -12,7 +16,7 @@
   width: 100%;
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
-  font-size: 14px;
+  font-size: 16px;
   text-align: left;
   padding: 5px;
 }
@@ -32,10 +36,9 @@
   display: block;
   padding: 2px 5px;
   line-height: 20px;
-  right: -10px;
   top: -10px;
   font-size: 24px;
-  background: #ffffff;
+  background: red;
   border-radius: 18px;
   border: 1px solid #cfcece;
 }

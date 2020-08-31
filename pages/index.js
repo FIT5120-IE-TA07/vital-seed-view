@@ -1,4 +1,7 @@
-import Head from "next/head";
+import Head from 'next/head'
+import Link from 'next/link'
+import Header from './components/Header'
+import Layout from './components/Layout'
 import MyImage from "./components/images/test.image";
 import VirusImage from "./components/images/virus.image";
 import Chlamydia from "./components/sti-info/chlamydia";
@@ -11,12 +14,16 @@ import React from 'react'
 export default function Home() {
   return (
     <div className="container">
+      {/* <Layout> */}
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
       <main>
+        <h1 className="title">
+          Hi <a href="/clinics">Link testing</a>
+        </h1>
         <h1 className="title">Welcome to Vital Seed again!</h1>
         <VirusImage />
         <h1 className="sub-title">STI Information</h1>
@@ -63,7 +70,6 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-          <MyImage />
         </div>
       </main>
 
@@ -73,10 +79,10 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
+          Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
     </div>
-  );
+  )
 }

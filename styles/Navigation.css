@@ -1,9 +1,9 @@
 /* .logo {
-    background-image: url("./logo.svg");
+    background-image: url("../public/virus-image.png");
     background-repeat: no-repeat;
     background-position: center center;
-    height: 34px;
-    width: 34px;
+    max-width: auto;
+    height: auto;
     display: inline-block;
     vertical-align: middle;
 } */
@@ -11,12 +11,15 @@
 .nav {
     height: 60px;
     width: 100%;
-    left:0;
+    left: 0;
     top: 0;
     background-color: rgba(109, 217, 236, 0.993);
     font-family: sans-serif;
     position: fixed;
     text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .ul {
@@ -29,4 +32,10 @@
 .div {
     margin-right: 30px;
     text-decoration: none;
+    color: white;
 }
+
+/* .proName{
+    display: flex;
+    align-items: center;
+} */

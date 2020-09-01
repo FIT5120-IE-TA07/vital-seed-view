@@ -53,7 +53,7 @@ export default function Frontpage() {
     {/* container3 */}
     <div className="container">
       <TableauEmbed />
-      <div><ChartImage/></div>
+      {/* <div><ChartImage/></div> */}
       <div className="subContainer2">
         Because of some technical issues, we're using image to represent the chart. We will fix it soon. Sorry for the inconvenience.
       </div>

@@ -14,59 +14,60 @@ import Gonorrhea from './components/sti-info/gonorrhea'
 import Hpv from './components/sti-info/hpv'
 import Hiv from './components/sti-info/hiv'
 import Syphilis from './components/sti-info/syphilis'
-import React from 'react'
+import TableauChart from './components/tableau/chart'
+import TableauMap from './components/tableau/map'
 
 export default function Frontpage() {
-  return (
-    <div className="main">
-      <Head>
-        <title>Vital Seed</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Navigation />
-      <h1 className="title">Welcome to Vital Seed!</h1>
+  return (<div className="main">
+    <Head>
+      <title>Vital Seed</title>
+      <link rel="icon" href="/favicon.ico"/>
+    </Head>
+    <Navigation/>
+    <h1 className="title">Welcome to Vital Seed!</h1>
 
-      {/* container1 */}
-      <div className="containerTop">
-        <div><BackgroundImage1 /></div>
-        <div className="subContainer2">Welcome to Vital Seed! This is iteration 1, the functionalities we are showing are: popup information, chart of infected rate and the map of clinics </div>
+    {/* container1 */}
+    <div className="containerTop">
+      <div><BackgroundImage1/></div>
+      <div className="subContainer2">Welcome to Vital Seed! This is iteration 1, the functionalities we are showing are: popup information, chart of infected rate and the map of clinics
       </div>
-
-      {/* container2 */}
-      <div className="container">
-        <div className="subContainer">
-          <h1>STI Information</h1>
-          <br />
-          <br />
-          <Chlamydia />
-          <br />
-          <Gonorrhea />
-          <br />
-          <Hpv />
-          <br />
-          <Hiv />
-          <br />
-          <Syphilis />
-        </div>
-        <div><GirlImage /></div>
-      </div>
-
-      {/* container3 */}
-      <div className="container">
-        <div><ChartImage /></div>
-        <div className="subContainer2">
-          Because of some technical issues, we're using image to represent the chart. We'll fix it soon. Sorry for the inconvenience.
-          </div>
-      </div>
-
-      {/* container4 */}
-      <div className="container">
-        <div className="subContainer">
-          Because of some technical issues, we're using image to represent the map. We'll fix it soon. Sorry for the inconvenience.
-        </div>
-        <div><MapImage /></div>
-      </div>
-      <Footer />
     </div>
-  );
+
+    {/* container2 */}
+    <div className="container">
+      <div className="subContainer">
+        <h1>STI Information</h1>
+        <br/>
+        <br/>
+        <Chlamydia/>
+        <br/>
+        <Gonorrhea/>
+        <br/>
+        <Hpv/>
+        <br/>
+        <Hiv/>
+        <br/>
+        <Syphilis/>
+      </div>
+      <div><GirlImage/></div>
+    </div>
+    {/* container3 */}
+    <div className="container">
+      <TableauChart />
+      {/* <div><ChartImage/></div> */}
+      {/* <div className="subContainer2">
+        Because of some technical issues, we're using image to represent the chart. We will fix it soon. Sorry for the inconvenience.
+      </div> */}
+    </div>
+
+    {/* container4 */}
+    <div className="container">
+      {/* <div className="subContainer">
+              Because of some technical issues, we're using image to represent the map. We will fix it soon. Sorry for the inconvenience.
+            </div> */}
+      <TableauMap />
+      {/* <div><MapImage/></div> */}
+    </div>
+    <Footer/>
+  </div>);
 }

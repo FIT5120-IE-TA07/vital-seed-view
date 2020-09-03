@@ -14,7 +14,8 @@ import Gonorrhea from './components/sti-info/gonorrhea'
 import Hpv from './components/sti-info/hpv'
 import Hiv from './components/sti-info/hiv'
 import Syphilis from './components/sti-info/syphilis'
-import TableauEmbed from './components/tableau.js'
+import TableauChart from './components/tableau/chart'
+import TableauMap from './components/tableau/map'
 
 export default function Frontpage() {
   return (<div className="main">
@@ -52,19 +53,20 @@ export default function Frontpage() {
     </div>
     {/* container3 */}
     <div className="container">
-      <TableauEmbed />
+      <TableauChart />
       {/* <div><ChartImage/></div> */}
-      <div className="subContainer2">
+      {/* <div className="subContainer2">
         Because of some technical issues, we're using image to represent the chart. We will fix it soon. Sorry for the inconvenience.
-      </div>
+      </div> */}
     </div>
 
     {/* container4 */}
     <div className="container">
-      <div className="subContainer">
-        Because of some technical issues, we're using image to represent the map. We will fix it soon. Sorry for the inconvenience.
-      </div>
-      <div><MapImage/></div>
+      {/* <div className="subContainer">
+              Because of some technical issues, we're using image to represent the map. We will fix it soon. Sorry for the inconvenience.
+            </div> */}
+      <TableauMap />
+      {/* <div><MapImage/></div> */}
     </div>
     <Footer/>
   </div>);

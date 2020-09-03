@@ -3,9 +3,9 @@ import window from 'global'
 
 const { tableau } = window
 
-function TableauEmbed() {
+function TableauMap() {
   const ref = useRef(null)
-  const url = "https://public.tableau.com/views/STDscharts/STDs_Dashboard"
+  const url = "https://public.tableau.com/views/MelbMap/MelbMap"
   console.log(ref);
 
   function initViz() {
@@ -18,9 +18,9 @@ function TableauEmbed() {
 
   return(
     <div>
-      <p>Tableau Dashboard</p>
+      <p>Tableau Map</p>
       <div ref={ref}></div>
     </div>
   )
 }
- export default TableauEmbed
+ export default TableauMap

@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import { useRouter } from 'next/router'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -33,6 +34,7 @@ export default function Home() {
   const element = <script src="https://public.tableau.com/javascripts/api/tableau-2.6.0.min.js"></script>
 
   const classes = useStyles();
+  const router = useRouter()
 
   return (<div>
     <Head>
@@ -44,7 +46,10 @@ export default function Home() {
           <Typography variant="h6" className={classes.title}>
             Vital Seed
           </Typography>
-          <Button color="inherit" className={classes.button}>Home</Button>
+          <Link href="/sti.info">
+            <Button color="inherit" className={classes.button}>Home</Button>
+          </Link>
+
           <Button color="inherit" className={classes.button}>STDs</Button>
           <Button color="inherit" className={classes.button}>Questionnaire</Button>
           <Button color="inherit" className={classes.button}>Clinics</Button>
@@ -54,6 +59,6 @@ export default function Home() {
         </Toolbar>
       </AppBar>
     </div>
-    <Frontpage />
+    <Frontpage/>
   </div>)
 }

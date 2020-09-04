@@ -1,15 +1,15 @@
-.main{
+/* .main{
   background-color: rgb(134, 131, 131);
-}
+} */
 
 .resImg {
   max-width: 100%;
   height: auto;
 }
 
-.title{
+/* .title{
   margin-top: 60px;
-}
+} */
 
 .container {
   min-height: 70vh;
@@ -59,7 +59,7 @@
   .col-s-12 {width: 100%;}
 }
 
-  /* For desktop: 
+  /* For desktop:
 @media only screen and (min-width: 768px) {
   /* .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -74,4 +74,3 @@
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 } */
-

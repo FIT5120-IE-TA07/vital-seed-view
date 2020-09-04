@@ -23,7 +23,7 @@ export default function Frontpage() {
       <title>Vital Seed</title>
       <link rel="icon" href="/favicon.ico"/>
     </Head>
-    <Navigation/>
+    {/* <Navigation/> */}
     <h1 className="title">Welcome to Vital Seed!</h1>
 
     {/* container1 */}

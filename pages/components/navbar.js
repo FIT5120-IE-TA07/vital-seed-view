@@ -9,7 +9,9 @@ import {useRouter} from 'next/router'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
+    height: "60px",
+    width: "100%"
   },
   menuButton: {
     marginRight: theme.spacing(2)
@@ -18,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1
   },
   button: {
+    height: "3%",
     backgroundColor: "black",
     margin: "0.5% 0.5%",
     "&:hover": {
@@ -42,7 +45,7 @@ export default function NavBar() {
         <Link href="/sti.info">
           <Button color="inherit" className={classes.button}>STI</Button>
         </Link>
-        <Link href="/">
+        <Link href="/questionnaire">
           <Button color="inherit" className={classes.button}>Questionnaire</Button>
         </Link>
         <Link href="/">

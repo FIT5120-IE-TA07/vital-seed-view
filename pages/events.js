@@ -22,7 +22,7 @@ export default function Events() {
                         </Paper>
                     </Grid>
                     <Grid item xs={12} sm={4}>
-                        <Paper className="paper" style={{ backgroundImage: `url('/public/girl1.jpg')` }}>
+                        <Paper className="paper" /*style={{ backgroundImage: `url('../public/girl1.jpg')` }}*/>
                         <h2 className="paperContent">What are the top 5 reasons of rise in STD infection rate?</h2>
                             <br />
                             <Button variant="contained" color="secondary" href="https://www.sexandu.ca ">

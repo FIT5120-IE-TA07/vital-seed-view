@@ -1,15 +1,12 @@
 import React from 'react';
-import Navigation from './components/Navigation';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
-import Layout from './components/Layout';
 
 export default function Events() {
     return (
         // <Layout>
         <div className="main">
-            <Navigation />
             <div className="container2">
                 <Grid container spacing={10}>
                     <Grid item xs={12} sm={4}>
@@ -58,7 +55,7 @@ export default function Events() {
                             <h2 className="paperContent">How well do you know about STDs?
                             <br/><br/>
                             Take this short quiz</h2>
-                            
+
                             <Button variant="contained" color="secondary" href="/">
                                 Let's start
                             </Button>
@@ -67,6 +64,6 @@ export default function Events() {
                 </Grid>
             </div>
         </div>
-         //</Layout> 
+         //</Layout>
     );
 }

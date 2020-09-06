@@ -131,3 +131,10 @@ html, body {
 * {
   box-sizing: border-box;
 }
+
+.MuiButton-root {
+  color: inherit;
+}
+.MuiButtonBase-root .MuiButton-root .MuiButton-text:hover {
+  background-color: black
+}

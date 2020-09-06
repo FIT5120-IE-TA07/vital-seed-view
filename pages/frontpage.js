@@ -14,19 +14,20 @@ import Hiv from './components/sti-info/hiv'
 import Syphilis from './components/sti-info/syphilis'
 import TableauChart from './components/tableau/chart'
 import TableauMap from './components/tableau/map'
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
 
 export default function Frontpage() {
   return (<div className="main">
     <Head>
       <title>Vital Seed</title>
-      <link rel="icon" href="/favicon.ico"/>
+      <link rel="icon" href="/favicon.ico" />
     </Head>
-    {/* <Navigation/> */}
     <h1 className="title">Welcome to Vital Seed!</h1>
 
     {/* container1 */}
     <div className="containerTop">
-      <div><BackgroundImage1/></div>
+      <div><BackgroundImage1 /></div>
       <div className="subContainer2">Welcome to Vital Seed! This is iteration 1, the functionalities we are showing are: popup information, chart of infected rate and the map of clinics
       </div>
     </div>
@@ -35,24 +36,24 @@ export default function Frontpage() {
     <div className="container">
       <div className="subContainer">
         <h1>STI Information</h1>
-        <br/>
-        <br/>
-        <Chlamydia/>
-        <br/>
-        <Gonorrhea/>
-        <br/>
-        <Hpv/>
-        <br/>
-        <Hiv/>
-        <br/>
-        <Syphilis/>
+        <br />
+        <br />
+        <Chlamydia />
+        <br />
+        <Gonorrhea />
+        <br />
+        <Hpv />
+        <br />
+        <Hiv />
+        <br />
+        <Syphilis />
       </div>
-      <div><GirlImage/></div>
+      <div><GirlImage /></div>
     </div>
+
     {/* container3 */}
     <div className="container">
       <TableauChart />
-      {/* <div><ChartImage/></div> */}
       {/* <div className="subContainer2">
         Because of some technical issues, we're using image to represent the chart. We will fix it soon. Sorry for the inconvenience.
       </div> */}
@@ -64,8 +65,10 @@ export default function Frontpage() {
               Because of some technical issues, we're using image to represent the map. We will fix it soon. Sorry for the inconvenience.
             </div> */}
       <TableauMap />
-      {/* <div><MapImage/></div> */}
     </div>
-    <Footer/>
+
+    {/* container5 */}
+
+    <Footer />
   </div>);
 }

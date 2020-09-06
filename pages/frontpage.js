@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from './components/Layout'
-import Footer from './components/Footer'
-import Navigation from "./components/Navigation";
+import Footer from './components/footer'
 import BackgroundImage1 from './components/images/backgroundImage1';
 import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
 import VirusImage from "./components/images/virus.image";
@@ -25,7 +23,6 @@ export default function Frontpage() {
       <title>Vital Seed</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <Navigation />
     <h1 className="title">Welcome to Vital Seed!</h1>
 
     {/* container1 */}
@@ -71,7 +68,7 @@ export default function Frontpage() {
     </div>
 
     {/* container5 */}
-    
+
     <Footer />
   </div>);
 }

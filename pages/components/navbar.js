@@ -51,7 +51,7 @@ export default function NavBar() {
         <Link href="/">
           <Button color="inherit" className={classes.button}>Clinics</Button>
         </Link>
-        <Link href="/">
+        <Link href="/events">
           <Button color="inherit" className={classes.button}>Events</Button>
         </Link>
         <Link href="/">

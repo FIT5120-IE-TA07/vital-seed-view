@@ -16,7 +16,8 @@ const state = {
 export default function Events() {
     return (
         <div className="main">
-            <div style={{ position: 'relative', width: '100%', height: 500 }}>
+            <h1>This is events page</h1>
+            {/* <div style={{ position: 'relative', width: '100%', height: 500 }}>
                 <Button onClick={() => setState({ open: true })}>Open carousel</Button>
                 <AutoRotatingCarousel
                     label='Get started'
@@ -47,7 +48,7 @@ export default function Events() {
                         subtitle='The Force is a metaphysical and ubiquitous power in the Star Wars fictional universe.'
                     />
                 </AutoRotatingCarousel>
-            </div>
+            </div> */}
         </div>
     );
 }

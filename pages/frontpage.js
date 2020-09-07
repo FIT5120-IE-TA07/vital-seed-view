@@ -18,12 +18,12 @@ export default function Frontpage() {
       <title>Vital Seed</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <h1 className="title">Welcome to Vital Seed!</h1>
+    {/* <h1 className="title">Welcome to Vital Seed!</h1> */}
 
     {/* container1 */}
     <div className="containerTop">
       <div><BackgroundImage1 /></div>
-      <div className="subContainer2">Welcome to Vital Seed! This is iteration 1, the functionalities we are showing are: popup information, chart of infected rate and the map of clinics
+      <div className="subContainer">Welcome to Vital Seed! This is iteration 1, the functionalities we are showing are: popup information, chart of infected rate and the map of clinics
       </div>
     </div>
 

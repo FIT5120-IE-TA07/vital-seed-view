@@ -45,19 +45,16 @@ export default function NavBar() {
         <Link href="/sti.info">
           <Button color="inherit" className={classes.button}>STI</Button>
         </Link>
-        <Link href="/questionnaire">
-          <Button color="inherit" className={classes.button}>Questionnaire</Button>
-        </Link>
-        <Link href="/">
+        <Link href="/clinics">
           <Button color="inherit" className={classes.button}>Clinics</Button>
         </Link>
         <Link href="/events">
           <Button color="inherit" className={classes.button}>Events</Button>
         </Link>
-        <Link href="/">
+        <Link href="/reports">
           <Button color="inherit" className={classes.button}>Reports</Button>
         </Link>
-        <Link href="/">
+        <Link href="/faq">
           <Button color="inherit" className={classes.button}>FAQ</Button>
         </Link>
       </Toolbar>

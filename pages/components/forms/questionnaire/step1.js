@@ -1,36 +1,23 @@
-import React, { useState } from 'react'
+import React from "react";
+import { useForm } from "react-hook-form";
 
-export default () => {
-  const [firstName, setFirstName] = useState('')
-  const [lastName, setLastName] = useState('')
+export default function StepOne() {
+  const { register, handleSubmit, errors } = useForm();
+  
+  const onSubmit = (data) => {
+    console.log(data)
+  }
 
   return (
-    <div>
-      <div className='row'>
-        <div className='six columns'>
-          <label>First Name</label>
-          <input
-            className='u-full-width'
-            placeholder='First Name'
-            type='text'
-            onChange={e => setFirstName(e.target.value)}
-            value={firstName}
-            autoFocus
-          />
-        </div>
-      </div>
-      <div className='row'>
-        <div className='six columns'>
-          <label>Last Name</label>
-          <input
-            className='u-full-width'
-            placeholder='Last Name'
-            type='text'
-            onChange={e => setLastName(e.target.value)}
-            value={lastName}
-          />
-        </div>
-      </div>
-    </div>
-  )
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <label>What is your gender?</label>
+      <br />
+      <input type="radio" name="male" id="male" value="male" />
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" name="female" id="female" value="female" />
+      <label for="female">Female</label>
+      <
+    </form>
+  );
 }

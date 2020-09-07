@@ -1,7 +1,6 @@
 import '../styles/popup.css'
 import "../styles/index.css"
 import "../styles/layout.css"
-import "../styles/Navigation.css"
 import '../styles/custom.css'
 import '../styles/normalize.css'
 import '../styles/skeleton.css'

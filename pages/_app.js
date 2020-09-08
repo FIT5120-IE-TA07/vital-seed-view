@@ -1,11 +1,10 @@
 import '../styles/popup.css'
 import "../styles/index.css"
 import "../styles/layout.css"
-// import "../styles/Navigation.css"
-// import '../styles/custom.css'
-// import '../styles/normalize.css'
-// import '../styles/skeleton.css'
-// import '../styles/global.css'
+import '../styles/custom.css'
+import '../styles/normalize.css'
+import '../styles/skeleton.css'
+import '../styles/global.css'
 import Layout from './components/layout'
 
 // This default export is required in a new `pages/_app.js` file.

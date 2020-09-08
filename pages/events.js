@@ -7,11 +7,6 @@ import { AutoRotatingCarousel } from 'material-auto-rotating-carousel';
 const Slide = require('./Slide').default;
 const { red, blue, green} = require('@material-ui/core/colors');
 const Button = require('@material-ui/core/Button').default;
-const state = {
-    showingInfoWindow: false,
-    activeMarker: {},
-    selectedPlace: {}
-  };
 
 export default function Events() {
     return (

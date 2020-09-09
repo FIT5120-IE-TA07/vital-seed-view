@@ -7,15 +7,23 @@
   height: auto;
 }
 
+.logo {
+  height: 60px;
+  width: auto;
+}
 /* .title{
   margin-top: 60px;
 } */
+
+.navbar{
+  background-color: cadetblue;
+}
 
 .container {
   min-height: 70vh;
   padding-top: 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -23,6 +31,7 @@
 .containerTop {
   min-height: 70vh;
   padding-top: 10px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;

@@ -7,16 +7,30 @@
   height: auto;
 }
 
+.button{
+  color: aliceblue;
+}
+
 .logo {
   height: 60px;
   width: auto;
 }
-/* .title{
-  margin-top: 60px;
-} */
 
 .navbar{
   background-color: cadetblue;
+}
+
+.stiButton{
+  padding: 30px;
+}
+
+.topImage{
+  min-width: max-content;
+  max-height: auto;
+}
+
+.chart{
+  margin-top: 50px;
 }
 
 .container {
@@ -38,6 +52,20 @@
   align-items: center;
 }
 
+.containerText{
+  border-top-style: solid;
+  border-top-color: rgb(85, 130, 228);
+  border-top-width: 8px;
+  background-color: white;
+  min-height: 70vh;
+  margin-top: -70px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .container2 {
   background-color: burlywood;
   min-height: 70vh;
@@ -47,7 +75,6 @@
   justify-content: center;
   align-items: stretch;
   margin: auto;
-  margin-top: 50px;
 }
 
 .container3 {
@@ -63,11 +90,15 @@
 }
 
 .subContainer{
+  background-image: linear-gradient(45deg, yellow, green);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+  padding-top: 20px;
   padding-left: 50px;
-  width: 600px;
+  padding-right: 50px;
+  min-width: 100%;
 }
 
 .subContainer2{

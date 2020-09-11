@@ -39,78 +39,73 @@ export default function Frontpage() {
 
       {/* container1 */}
       <div className="containerTop">
-      <div className={classes.section} id="carousel">
-        <div className={classes.container}>
-          <GridContainer>
-            <GridItem xs={12} sm={10} md={8} className={classes.marginAuto}>
-              <Card>
-                <Carousel {...settings}>
-                  <div>
-                  <CardBckgnd3 />
-                    <div className="slick-caption">
-                      <h6>
-                      Yellowstone National Park, United States
+        <div className={classes.section} id="carousel">
+          <div className={classes.container}>
+            <GridContainer>
+              <GridItem xs={12} sm={10} md={8} className={classes.marginAuto}>
+                <Card>
+                  <Carousel {...settings}>
+                    <div>
+                      <CardBckgnd3 />
+                      <div className="slick-caption">
+                        <h6>
+                          Yellowstone National Park, United States
                     </h6>
+                      </div>
                     </div>
-                  </div>
-                  <div>
-                    <CardBckgnd1 />
-                    <div className="slick-caption">
-                      <h6>
-                      Somewhere Beyond, United States
+                    <div>
+                      <CardBckgnd1 />
+                      <div className="slick-caption">
+                        <h6>
+                          Somewhere Beyond, United States
                     </h6>
+                      </div>
                     </div>
-                  </div>
-                  <div>
-                    <CardBckgnd2 />
-                    <div className="slick-caption">
-                      <h6>
-                      Yellowstone National Park, United States
+                    <div>
+                      <CardBckgnd2 />
+                      <div className="slick-caption">
+                        <h6>
+                          Yellowstone National Park, United States
                     </h6>
+                      </div>
                     </div>
-                  </div>
-                  <div>
-                    <CardBckgnd1 />
-                    <div className="slick-caption">
-                      <h6>
-                      Somewhere Beyond, United States
+                    <div>
+                      <CardBckgnd1 />
+                      <div className="slick-caption">
+                        <h6>
+                          Somewhere Beyond, United States
                     </h6>
+                      </div>
                     </div>
-                  </div>
-                  <div>
-                    <CardBckgnd1 />
-                    <div className="slick-caption">
-                      <h6>
-                      Somewhere Beyond, United States
+                    <div>
+                      <CardBckgnd1 />
+                      <div className="slick-caption">
+                        <h6>
+                          Somewhere Beyond, United States
                     </h6>
+                      </div>
                     </div>
-                  </div>
-                </Carousel>
-              </Card>
-            </GridItem>
-          </GridContainer>
+                  </Carousel>
+                </Card>
+              </GridItem>
+            </GridContainer>
+          </div>
         </div>
       </div>
+
+      <div className="container">
+        <h4>What is Vital Seed?</h4>
+        <h6>
+          A sexually transmitted infection (STI) is an infection you get from
+          someone else during sexual activity. There are lots of different
+          kind of STIs, all with different preventions, symptoms and treatment
+          options.
+          </h6>
+        <h6>
+          With the right protection, good communication and regular sexual
+          health checks, most STIs can be avoided or easily managed.
+          </h6>
       </div>
-
-
-        {/* <div>
-          <BackgroundImage1 />
-        </div>
-        <div className="subContainer">*/}
-        <div className="container">
-          <h4>What is Vital Seed?</h4>
-          <h6>
-            A sexually transmitted infection (STI) is an infection you get from
-            someone else during sexual activity. There are lots of different
-            kind of STIs, all with different preventions, symptoms and treatment
-            options.
-          </h6>
-          <h6>
-            With the right protection, good communication and regular sexual
-            health checks, most STIs can be avoided or easily managed.
-          </h6>
-        </div> 
 
       {/* container2  */}
       <div className="container2">
@@ -129,7 +124,6 @@ export default function Frontpage() {
                 <Button
                   variant="contained"
                   color="secondary"
-                  href="./questionnaire"
                   className="paperButton"
                 >
                   Let's start
@@ -143,11 +137,10 @@ export default function Frontpage() {
                 <GirlImage2 />
               </div>
               <p className="paperContent">How well do you know about STDs?</p>
-              <Link href="/questionnaire">
+              <Link href="/questionnaire2">
                 <Button
                   variant="contained"
                   color="secondary"
-                  href="./questionnare"
                   className="paperButton"
                 >
                   Take a quiz

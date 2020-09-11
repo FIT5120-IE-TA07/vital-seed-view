@@ -18,7 +18,7 @@ function TableauMap() {
 
   return(
     <div>
-      <p>Tableau Map</p>
+      <br/>
       <div ref={ref}></div>
     </div>
   )

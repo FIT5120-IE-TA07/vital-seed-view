@@ -18,7 +18,6 @@ function TableauChart() {
 
   return(
     <div>
-      <p>Tableau Chart</p>
       <div ref={ref}></div>
     </div>
   )

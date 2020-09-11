@@ -1,11 +1,9 @@
-import React from 'react'
-import StepOne from './components/forms/questionnaire/step1'
+import React from "react";
+import Page1 from './components/forms/page1'
 
-const Questionnaire = () => {
+function Questionnaire() {
   return (
-    <div className='container'>
-      <StepOne />
-    </div>
+    <Page1 />
   )
 }
 

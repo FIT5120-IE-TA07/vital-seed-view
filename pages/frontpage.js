@@ -36,6 +36,7 @@ export default function Frontpage() {
         <title>Vital Seed</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+        {/* <img src="/image2.jpeg" className="carouselImg"></img> */}
 
       {/* container1 */}
       <div className="containerTop">
@@ -46,44 +47,44 @@ export default function Frontpage() {
                 <Card>
                   <Carousel {...settings}>
                     <div>
-                      <CardBckgnd3 />
-                      <div className="slick-caption">
+                      <CardBckgnd2 />
+                      {/* <div className="slick-caption">
                         <h6>
                           Yellowstone National Park, United States
                     </h6>
-                      </div>
+                      </div> */}
                     </div>
                     <div>
                       <CardBckgnd1 />
-                      <div className="slick-caption">
+                      {/* <div className="slick-caption">
                         <h6>
                           Somewhere Beyond, United States
                     </h6>
-                      </div>
+                      </div> */}
                     </div>
                     <div>
                       <CardBckgnd2 />
-                      <div className="slick-caption">
+                      {/* <div className="slick-caption">
                         <h6>
                           Yellowstone National Park, United States
                     </h6>
-                      </div>
+                      </div> */}
                     </div>
                     <div>
                       <CardBckgnd1 />
-                      <div className="slick-caption">
+                      {/* <div className="slick-caption">
                         <h6>
                           Somewhere Beyond, United States
                     </h6>
-                      </div>
+                      </div> */}
                     </div>
                     <div>
                       <CardBckgnd1 />
-                      <div className="slick-caption">
+                      {/* <div className="slick-caption">
                         <h6>
                           Somewhere Beyond, United States
                     </h6>
-                      </div>
+                      </div> */}
                     </div>
                   </Carousel>
                 </Card>
@@ -93,7 +94,36 @@ export default function Frontpage() {
         </div>
       </div>
 
-      <div className="container">
+      <div className="subContainer" spacing={2}>
+        <Link href="/sti.info">
+          <Button
+            variant="outlined"
+            color="secondary"
+            className="frontpageButton"
+          >
+            STD & U
+                </Button>
+        </Link>
+        <Link href="/clinics">
+          <Button
+            variant="outlined"
+            color="secondary"
+            className="frontpageButton"
+          >Find a clinic
+                </Button>
+        </Link>
+        <Link href="/questionnaire">
+          <Button
+            variant="outlined"
+            color="secondary"
+            className="frontpageButton"
+          >
+            let them know
+                </Button>
+        </Link>
+      </div>
+
+      {/* <div className="container">
         <h4>What is Vital Seed?</h4>
         <h6>
           A sexually transmitted infection (STI) is an infection you get from
@@ -105,64 +135,45 @@ export default function Frontpage() {
           With the right protection, good communication and regular sexual
           health checks, most STIs can be avoided or easily managed.
           </h6>
-      </div>
+      </div> */}
 
       {/* container2  */}
       <div className="container2">
-        <Grid container spacing={3}>
-          <Grid item xs={12} sm={6}>
-            <Paper className="paper">
-              <div className="bckImg1">
-                <GirlImage1 />
-              </div>
-              <p className="paperContent">
-                How safe is your sex?
+        <Paper className="paper2">
+          <div className="bckImg1">
+            <img src="/girl2.jpg"></img>
+          </div>
+          <div>
+            <p className="innerText">
+              How safe is your sex?
                 <br />
                 Let's check here...
               </p>
-              <Link href="/questionnaire">
-                <Button
-                  variant="contained"
-                  color="secondary"
-                  className="paperButton"
-                >
-                  Let's start
+            <Link href="/questionnaire">
+              <Button
+                variant="contained"
+                color="primary"
+                className="paperButton"
+              >
+                Let's start
                 </Button>
-              </Link>
-            </Paper>
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <Paper className="paper">
-              <div className="bckImg1">
-                <GirlImage2 />
-              </div>
-              <p className="paperContent">How well do you know about STDs?</p>
-              <Link href="/questionnaire2">
-                <Button
-                  variant="contained"
-                  color="secondary"
-                  className="paperButton"
-                >
-                  Take a quiz
-                </Button>
-              </Link>
-            </Paper>
-          </Grid>
-        </Grid>
+            </Link>
+          </div>
+        </Paper>
       </div>
 
       <div className="container3">
         <Grid container spacing={1}>
           <Grid item xs={12} sm={4}>
             <Paper className="paper">
-              <div className="bckImg1">
+              <div>
                 <CardBckgnd1 />
               </div>
               <p className="paperContent">Are contraceptives important? Why?</p>
 
               <Button
                 variant="contained"
-                color="secondary"
+                color="primary"
                 href="https://www.abc.net.au/radionational/programs/drive/the-contraceptive-pill-and-why-you-dont-need-to-bleed/10737704"
                 target="_blank"
                 className="paperButton"
@@ -182,7 +193,7 @@ export default function Frontpage() {
 
               <Button
                 variant="contained"
-                color="secondary"
+                color="primary"
                 href="https://www.abc.net.au/news/health/2019-09-29/stis-on-the-rise-but-stigma-persists/11552194 "
                 target="_blank"
                 className="paperButton"
@@ -199,7 +210,7 @@ export default function Frontpage() {
               <p className="paperContent">What is sex and ways to safe sex?</p>
               <Button
                 variant="contained"
-                color="secondary"
+                color="primary"
                 href="https://www.abc.net.au/life/how-to-practise-safe-sexting/10242646"
                 target="_blank"
                 className="paperButton"

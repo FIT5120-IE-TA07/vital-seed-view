@@ -39,7 +39,7 @@ export default function Frontpage() {
         {/* <img src="/image2.jpeg" className="carouselImg"></img> */}
 
       {/* container1 */}
-      <div className="containerTop">
+     <div className="containerTop">
         <div className={classes.section} id="carousel">
           <div className={classes.container}>
             <GridContainer>
@@ -92,7 +92,7 @@ export default function Frontpage() {
             </GridContainer>
           </div>
         </div>
-      </div>
+                    </div>
 
       <div className="subContainer" spacing={2}>
         <Link href="/sti.info">

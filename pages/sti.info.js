@@ -27,9 +27,7 @@ function Sti() {
           With the right protection, good communication and regular sexual
           health checks, most STIs can be avoided or easily managed.
           </h6>
-        <ReactPlayer
-          url='https://www.youtube.com/watch?v=YcIl-hclrLI'
-        />
+        
       </div>
       <div className="subContainer">
         <div className="stiButton"><Chlamydia /></div>
@@ -38,6 +36,10 @@ function Sti() {
         <div className="stiButton"><Hiv /></div>
         <div className="stiButton"><Syphilis /></div>
       </div>
+
+      <ReactPlayer
+          url='https://www.youtube.com/watch?v=YcIl-hclrLI'
+        />
     </div>
   )
 }

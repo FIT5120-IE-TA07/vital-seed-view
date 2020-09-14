@@ -65,6 +65,7 @@
   min-height: 70vh;
   margin-top: -70px;
   padding: 50px;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;

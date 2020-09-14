@@ -25,21 +25,15 @@
     "react-dom": "16.13.1",
     "react-hook-form": "^6.7.2",
     "react-multistep": "^5.1.0",
-<<<<<<< HEAD
     "react-redux": "^7.2.1",
-=======
     "react-player": "^2.6.2",
->>>>>>> adeda7f982ca891b786ea4b81f163462be954139
     "react-router-dom": "^5.2.0",
     "react-slick": "^0.27.11",
     "react-swipeable-views": "^0.13.9",
     "reactjs-popup": "^1.5.0",
-<<<<<<< HEAD
     "redux-form": "^8.3.6",
-    "redux-form-website-template": "^1.0.17"
-=======
+    "redux-form-website-template": "^1.0.17",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.0"
->>>>>>> adeda7f982ca891b786ea4b81f163462be954139
   }
 }

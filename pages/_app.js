@@ -1,10 +1,10 @@
 import "../styles/popup.css";
 import "../styles/index.css";
 import "../styles/layout.css";
-// import '../styles/custom.css'
-// import '../styles/normalize.css'
-// import '../styles/skeleton.css'
-// import '../styles/global.css'
+import '../styles/custom.css'
+import '../styles/normalize.css'
+import '../styles/skeleton.css'
+import '../styles/global.css'
 import Layout from "./components/layout";
 // import '../styles/forms.css'
 // import { CounterProvider } from "./components/forms/counter";

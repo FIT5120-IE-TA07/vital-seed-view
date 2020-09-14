@@ -22,28 +22,28 @@ export default function StepOne() {
 
   return (
     <div>
-      <h1>STI Questionnaire</h1>
+      <h1>How Much Do You Know About STDs?</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
-      <label>What is your age group?</label>
+      <h1>You can have a sexually transmitted infection and be unaware that you have it.</h1>
         <br />
         <input
           type="radio"
-          name="gender"
-          id="female"
-          value="female"
+          name="q1"
+          id="q1"
+          value="true"
           defaultChecked={true}
           ref={register}
         />
-        <label>Female</label>
+        <label>True</label>
         <br />
         <input
           type="radio"
-          name="gender"
+          name="q1"
           id="male"
-          value="male"
+          value="false"
           ref={register}
         />
-        <label>Male</label>
+        <label>False</label>
         {errors.gender && (
           <p className="error-message">*Please select a gender</p>
         )}

@@ -18,7 +18,8 @@ function TableauMap() {
 
   return(
     <div>
-      <p>Tableau Map</p>
+      <center><h5><b>Public hospitals in and around Melbourne offering STI treatment</b></h5></center>
+      <center><h7>Hover on the location to check the address, telephone number and website of that particular clinic. </h7></center>
       <div ref={ref}></div>
     </div>
   )

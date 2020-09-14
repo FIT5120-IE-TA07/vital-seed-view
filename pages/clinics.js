@@ -1,5 +1,7 @@
 import TableauMap from './components/tableau/map'
 
+
+
 function Clinics() {
     return (
         <div className="container">

@@ -15,7 +15,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import LocationOn from "@material-ui/icons/LocationOn";
 import GridContainer from "./components/Grid/GridContainer.js";
 import GridItem from "./components/Grid/GridItem.js";
-import Card from "./components/Card/Card.js";
 import carouselStyle from "../assets/jss/material-kit-react/views/componentsSections/carouselStyle";
 
 const useStyles = makeStyles(carouselStyle);

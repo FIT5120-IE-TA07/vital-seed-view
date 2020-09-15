@@ -1,3 +1,7 @@
+.button{
+  min-width: 150px;
+  color: white;
+}
 .popup-content {
   overflow: auto;
   height: 75%;

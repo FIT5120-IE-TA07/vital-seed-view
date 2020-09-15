@@ -16,11 +16,10 @@ import LocationOn from "@material-ui/icons/LocationOn";
 import GridContainer from "./components/Grid/GridContainer.js";
 import GridItem from "./components/Grid/GridItem.js";
 import Card from "./components/Card/Card.js";
-import carouselStyle from "../assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
+import carouselStyle from "../assets/jss/material-kit-react/views/componentsSections/carouselStyle";
 
 const useStyles = makeStyles(carouselStyle);
 export default function Frontpage() {
-
   const classes = useStyles();
   const settings = {
     dots: true,
@@ -28,7 +27,7 @@ export default function Frontpage() {
     speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true
+    autoplay: true,
   };
   return (
     <div className="main">
@@ -36,63 +35,61 @@ export default function Frontpage() {
         <title>Vital Seed</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        {/* <img src="/image2.jpeg" className="carouselImg"></img> */}
+      {/* <img src="/image2.jpeg" className="carouselImg"></img> */}
 
       {/* container1 */}
-     <div className="containerTop">
+      <div className="containerTop">
         <div className={classes.section} id="carousel">
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={10} md={8} className={classes.marginAuto}>
-                <Card>
-                  <Carousel {...settings}>
-                    <div>
-                      <CardBckgnd2 />
-                      {/* <div className="slick-caption">
+                <Carousel {...settings}>
+                  <div>
+                    <CardBckgnd2 />
+                    {/* <div className="slick-caption">
                         <h6>
                           Yellowstone National Park, United States
                     </h6>
                       </div> */}
-                    </div>
-                    <div>
-                      <CardBckgnd1 />
-                      {/* <div className="slick-caption">
+                  </div>
+                  <div>
+                    <CardBckgnd1 />
+                    {/* <div className="slick-caption">
                         <h6>
                           Somewhere Beyond, United States
                     </h6>
                       </div> */}
-                    </div>
-                    <div>
-                      <CardBckgnd2 />
-                      {/* <div className="slick-caption">
+                  </div>
+                  <div>
+                    <CardBckgnd2 />
+                    {/* <div className="slick-caption">
                         <h6>
                           Yellowstone National Park, United States
                     </h6>
                       </div> */}
-                    </div>
-                    <div>
-                      <CardBckgnd1 />
-                      {/* <div className="slick-caption">
+                  </div>
+                  <div>
+                    <CardBckgnd1 />
+                    {/* <div className="slick-caption">
                         <h6>
                           Somewhere Beyond, United States
                     </h6>
                       </div> */}
-                    </div>
-                    <div>
-                      <CardBckgnd1 />
-                      {/* <div className="slick-caption">
+                  </div>
+                  <div>
+                    <CardBckgnd1 />
+                    {/* <div className="slick-caption">
                         <h6>
                           Somewhere Beyond, United States
                     </h6>
                       </div> */}
-                    </div>
-                  </Carousel>
-                </Card>
+                  </div>
+                </Carousel>
               </GridItem>
             </GridContainer>
           </div>
         </div>
-                    </div>
+      </div>
 
       <div className="subContainer" spacing={2}>
         <Link href="/sti.info">
@@ -102,15 +99,16 @@ export default function Frontpage() {
             className="frontpageButton"
           >
             STD & U
-                </Button>
+          </Button>
         </Link>
         <Link href="/clinics">
           <Button
             variant="outlined"
             color="secondary"
             className="frontpageButton"
-          >Find a clinic
-                </Button>
+          >
+            Find a clinic
+          </Button>
         </Link>
         <Link href="/questionnaire">
           <Button
@@ -119,7 +117,7 @@ export default function Frontpage() {
             className="frontpageButton"
           >
             let them know
-                </Button>
+          </Button>
         </Link>
       </div>
 
@@ -146,9 +144,9 @@ export default function Frontpage() {
           <div>
             <p className="innerText">
               How safe is your sex?
-                <br />
-                Let's check here...
-              </p>
+              <br />
+              Let's check here...
+            </p>
             <Link href="/questionnaire">
               <Button
                 variant="contained"
@@ -156,7 +154,7 @@ export default function Frontpage() {
                 className="paperButton"
               >
                 Let's start
-                </Button>
+              </Button>
             </Link>
           </div>
         </Paper>
